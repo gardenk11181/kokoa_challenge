@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+}
+  
+.whole {
+    height: 1500px;
+    width: 100%;
+    background-color: grey;
+    padding: 0;
+}
+  
+.whole .whole__header {
+    height: 30px;
+    width: 100%;
+    position: fixed;
+    background-color: #ff7979;
+}
+  
+.whole__bottom .bottom__left {
+    top: 30px;
+    font-size: 20px;
+}
+  
