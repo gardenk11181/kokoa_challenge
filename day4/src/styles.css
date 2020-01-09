@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+  }
+
+.box {
+    display:flex;
+    padding:0;
+    margin:0;
+}
+
+.blueBox {
+    height: 500px;
+    width: 700px;
+    background-color: #1E90FF;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.redBox {
+    height:150px;
+    width:150px;
+    background-color: #FF6B81;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.greyBox {
+    padding:0;
+    margin:0;
+    height: 40px;
+    width: 40px;
+    background-color: #D8D8D8;
+}
+
+.greyBox:nth-child(2):hover {
+    background-color: red;
+}
