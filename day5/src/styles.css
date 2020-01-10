@@ -1,4 +1,50 @@
 body {
     font-family: sans-serif;
-  }
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.box__button {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin : 70px;
+    height : 100px;
+    width: 400px;
+    background-color: #7F8C8D;
+    border-radius: 50px;
+    transition: background-color .5s ease-in-out,box-shadow .5s ease-in-out;
+}
+
+.box__button:hover {
+    background-color: #95A5A6;
+    box-shadow: 0 8px 16px -8px rgba(0,0,0,.7), 0 -6px 16px -6px rgba(0,0,0,.025);
+}
+
+.box__button span{
+    font-size: 40px;
+    color: white;
+}
+
+.box__image {
+    height: 250px;
+    width: 250px;
+    transition: transform .5s ease-in-out, border .5s ease-in-out;
+}
+
+.box__button:hover + .box__image {
+    transform: rotate(0.375turn) scale(0.7,0.7);
+    border: 7px solid black;
+}
   
+.box__image img{
+    height: 250px;
+    width: 250px;
+}
