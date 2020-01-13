@@ -4,7 +4,88 @@
     <title>Kokoa Tribe</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://kit.fontawesome.com/dc8a0834cc.js" crossorigin="anonymous"></script>
   </head>
 
-  <body></body>
+  <body>
+    <header class="header">
+        <div class="header__title">Instagram</div>
+        <div class="header__icon">
+            <i class="fas fa-tv"></i>
+            <i class="fab fa-telegram-plane"></i>
+        </div>
+    </header>
+    <main class="feeds">
+        <div class="feeds__stories">
+            <div class="story">
+                <img src="images/person1.jpg" class="story-image">
+                <div class="plus-btn">
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+            <div class="story">
+                <img src="images/person2.jpg" class="story-image">
+            </div>
+            <div class="story">
+                <img src="images/person3.jpg" class="story-image">
+            </div>
+            <div class="story">
+                <img src="images/person4.jpg" class="story-image">
+            </div>
+        </div>
+        <ul class="feeds__list">
+            <li class="feeds__feed">
+                <a href="feed.html" class="feeds__list-link">
+                    <div class="feed__title">
+                        <div class="feed__title-column">
+                            <img src="images/profile.png" class="profile-image">
+                        </div>
+                        <div class="feed__title-column">
+                            <h1 class="name">Sam Martin</h1>
+                            <h4 class="timestamp">5 min</h4>
+                        </div>
+                        <div class="feed__title-column">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div class="feed__content">
+                        <img src="images/art.jpg"class="content-image">
+                    </div>
+                    <div class="feed__status">
+                        <div class="feed__status-column">
+                            <i class="far fa-heart"></i>
+                            <span class="likes">2,515</span>
+                        </div>
+                        <div class="feed__status-column">
+                            <i class="far fa-comment-dots"></i>
+                            <span class="messages">350</span>
+                        </div>
+                        <div class="feed__status-column">
+                            <i class="far fa-bookmark"></i>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </main>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__list-item">
+                <i class="fas fa-bars"></i>
+            </li>
+            <li class="nav__list-item">
+                <i class="fas fa-search"></i>
+            </li>
+            <li class="nav__list-item">
+                <i class="fas fa-plus"></i>
+            </li>
+            <li class="nav__list-item">
+                <i class="far fa-heart"></i>
+            </li>
+            <li class="nav__list-item">
+                <i class="far fa-user"></i>
+            </li>
+        </ul>
+    </nav>
+  </body>
 </html>

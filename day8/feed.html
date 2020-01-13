@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/dc8a0834cc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="src/styles.css">
+    <title>feed</title>
+</head>
+<body>
+    <header class="feedheader">
+        <div class="feedheader-column">
+            <a href="index.html" class="feedheader__backbtn">
+                <i class="fas fa-arrow-left"></i>
+            </a>
+        </div>
+        <div class="feedheader-column">
+            <img src="images/profile.png" class="profile-image">
+        </div>
+        <div class="feedheader-column">
+            <h1 class="name">Sam Martin</h1>
+            <h4 class="timestamp">5 min</h4>
+        </div>
+        <div class="feedheader-column">
+            <i class="fas fa-ellipsis-h"></i>
+        </div>
+    </header>
+    <main class="feed">
+        <div class="feed__content">
+            <img src="images/art.jpg"class="content-image">
+        </div>
+        <div class="feed__status">
+            <div class="feed__status-column">
+                <i class="far fa-heart"></i>
+                <span class="likes">2,515</span>
+            </div>
+            <div class="feed__status-column">
+                <i class="far fa-comment-dots"></i>
+                <span class="messages">350</span>
+            </div>
+            <div class="feed__status-column">
+                <i class="far fa-bookmark"></i>
+            </div>
+        </div>
+        <ul class="messages__list">
+            <li class="message">
+                <div class="message-column">
+                    <img src="images/person1.jpg" class="message-image">
+                </div>
+                <div class="message-column">
+                    <div class="message-title"></div>
+                    <div class="message-content"></div>
+                    <div class="message-behavior">
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-reply"></i>
+                    </div>
+                </div>
+            </li>
+            <li class="message">
+                <div class="message-column">
+                    <img src="images/person1.jpg" class="message-image">
+                </div>
+                <div class="message-column">
+                    <div class="message-title"></div>
+                    <div class="message-content"></div>
+                    <div class="message-behavior">
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-reply"></i>
+                    </div>
+                </div>
+            </li>
+            <li class="message">
+                <div class="message-column">
+                    <img src="images/person1.jpg" class="message-image">
+                </div>
+                <div class="message-column">
+                    <div class="message-title"></div>
+                    <div class="message-content"></div>
+                    <div class="message-behavior">
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-reply"></i>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </main>
+    <nav class="comment">
+        <input class="comment__write" type="text" placeholder="Add a comment" class="chat__write-input">
+        <div class="message__icon-left">
+            <img src="images/person1.jpg" class="comment-image">
+        </div>
+        <div class="chat__icon-right chat__icon"> 
+            <span class="message__icon-right">
+                <i class="fab fa-telegram-plane"></i>
+            </span>
+        </div>
+    </nav>
+</body>
+</html>
