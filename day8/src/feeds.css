@@ -4,9 +4,9 @@ main {
 
 .feeds__stories {
     margin-bottom: 20px;
-    padding: 0;
+    padding: 0px 10px;
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
 }

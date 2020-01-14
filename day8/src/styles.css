@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Tangerine&display=swap');
 @import "header.css";
 @import "feeds.css";
+@import "nav.css";
 
 *{
     box-sizing: border-box
