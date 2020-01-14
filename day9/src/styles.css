@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
 @import 'reset.css';
 @import 'price.css';
+@import 'profile.css';
 
 *{
     box-sizing: border-box
@@ -13,6 +14,7 @@ body {
 .box {
     margin: 0;
     padding: 0;
+    width: 500px;
     display: flex;
     align-items: center;
     flex-direction: column;
