@@ -1,0 +1,56 @@
+.priceBox {
+    margin:10px;
+    padding: 20px 20px 30px 20px;
+    background-color: white;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.price-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 30px 30px;
+}
+
+.priceBox img{
+    width: 60%;
+}
+
+.price-content .price__title {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.price-content .price__exp {
+    margin-bottom: 20px;
+    font-size: 15px;
+    opacity: .7;
+}
+
+.price__info {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price__info .price__info-dollar {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.price__info-star i:nth-child(1),
+.price__info-star i:nth-child(2),
+.price__info-star i:nth-child(3),
+.price__info-star i:nth-child(4) {
+    color: #FEBD51;
+}
+
+.price__info-star i:nth-child(5),
+.price__info-star span {
+    opacity: .3;
+}
