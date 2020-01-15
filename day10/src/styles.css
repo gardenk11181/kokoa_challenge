@@ -1,20 +1,12 @@
 @import 'reset.css';
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
-
-*{
-    box-sizing: border-box
-}
+@import 'phone.css';
 
 body {
     font-family: 'Noto Sans', 'sans-serif';
 }
 
-.box {
-    margin: 0;
-    padding: 0;
-    width: 500px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: black;
+
+*{
+    box-sizing: border-box
 }

@@ -1,0 +1,137 @@
+.phone {
+    margin: 10px;
+    width: 80%;
+    padding-top: calc(16/9*80%);
+    background-color: #F8F8F8;
+    border: 1px solid black;
+    position: relative;
+}
+
+.phone > .phone__wrapper {
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding:10%;
+}
+
+.title {
+    font-weight: 700;
+    padding-bottom: 30px;
+    margin: 10px;
+}
+
+.inputLayout {
+    background-color: white;
+    margin-top:30px;
+    padding:10px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border:1px solid grey;
+    
+}
+
+.inputLayout input {
+    border-radius: 5px;
+    border:none;
+    width:100%;
+    height: 100%;
+}
+
+.forgotPassword{
+    width:100%;
+    height:30px;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.forgotPassword span{
+    color:red;
+    margin-top: 10px;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.rememberMe {
+    margin-bottom:30px;
+    width:100%;
+    height:30px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.rememberMe span {
+    color: grey;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.btn{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.signIn {
+    background-color: red;
+}
+
+.btn span{
+    color:white;
+    font-size: 12px;
+}
+
+.or{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.otherBtn{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.otherBtn__twitter{
+    background-color: blue;
+}
+
+.otherBtn__facebook{
+    background-color: darkblue;
+    margin-right: 20px;
+}
+
+.otherRequest{
+    margin-top:15px;
+    width: 100%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.otherRequest__q {
+    color: grey;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.otherRequest__a {
+    color: red;
+    font-size: 12px;
+    font-weight: 700;
+}
+
