@@ -1,6 +1,10 @@
 @import 'reset.css';
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&display=swap');
 @import 'phone.css';
+@import 'status.css';
+@import 'preview.css';
+@import 'content.css';
+@import 'nav.css';
 
 * {
     box-sizing: border-box;
@@ -8,4 +12,7 @@
 
 body {
     font-family: 'Josefin Sans', sans-serif;
+    padding: 20px;
+    background-color: rgb(226, 226, 226);
 }
+
