@@ -2,7 +2,7 @@
     margin: 10px;
     width: 80%;
     padding-top: calc(16/9*80%);
-    background-color: #F8F8F8;
+    background-color: rgb(250, 250, 250);
     position: relative;
     border-radius: 50px;
     box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.1),5px 9px 20px 3px rgba(0,0,0,0.5),0px 0px 5px 4px rgba(0,0,0,0.15) inset;
@@ -15,7 +15,7 @@
     display:flex;
     align-items: center;
     flex-direction: column;
-    background-color: #f9fbfc;
+    background: linear-gradient(rgb(250, 250, 250) 0%, rgb(230, 230, 230) 100%);
     border-radius: 40px;
     margin:5%;
     padding : 5%;
@@ -28,6 +28,10 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom:20px
+}
+
+.header:hover{
+    cursor: pointer;
 }
 
 .main {
@@ -58,7 +62,7 @@
 
 .title__right {
     font-weight: 700;
-    color: red;
+    color: #E96271;
 }
 
 .main__content {
@@ -76,9 +80,9 @@
 }
 
 .content__column {
-    width: 45%;
+    width: 48%;
     height: 80px;
-    background-color: grey;
+    border-radius: 10px;
     display:flex;
     justify-content: center;
     align-items:center;
@@ -86,6 +90,27 @@
     font-size: 13px;
     font-weight: 700;
 }
+
+.image1 {
+    background: linear-gradient(transparent 0%, rgba(0,0,0,0.5) 100%),url('../images/image1.jpg');
+    background-size: 100%;
+}
+
+.image2 {
+    background: linear-gradient(transparent 0%, rgba(0,0,0,0.5) 100%),url('../images/image2.jpg');
+    background-size: 100%;
+}
+
+.image3 {
+    background: linear-gradient(transparent 0%, rgba(0,0,0,0.5) 100%),url('../images/image3.jpg');
+    background-size: 100%;
+}
+
+.image4 {
+    background: linear-gradient(transparent 0%, rgba(0,0,0,0.5) 100%),url('../images/image4.jpg');
+    background-size: 100%;
+}
+
 
 .main__other{
     width: 100%;
@@ -99,7 +124,7 @@
     margin-top:10px;
     padding: 0px 10px;
     height: 50px;
-    background-color: grey;
+    background-color: white;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -107,7 +132,7 @@
 }
 
 .other__row > i{
-    color: red;
+    color: #E96271;
 }
 
 .other__row .other__column {
@@ -126,7 +151,7 @@
 
 .other__column > .other__content {
     font-size: 10px;
-    color:white;
+    color:grey;
 }
 
 .nav {
@@ -149,4 +174,9 @@
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 -10px 10px -10px #333;
+}
+
+.nav i:hover {
+    color: #E96271;
+    cursor: pointer;
 }

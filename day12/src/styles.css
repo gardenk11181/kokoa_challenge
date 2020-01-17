@@ -1,6 +1,11 @@
 @import 'reset.css';
 @import 'phone.css';
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,700&display=swap');
 
 * {
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Titillium Web', 'sans-serif';
 }
