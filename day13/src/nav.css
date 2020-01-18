@@ -1,0 +1,16 @@
+.nav {
+    height:50px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav i{
+    color:grey;
+    font-size: 22px;
+}
+
+.nav i:hover{
+    color:#2799FA;
+    cursor: pointer;
+}

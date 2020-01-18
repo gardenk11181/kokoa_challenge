@@ -1,5 +1,7 @@
 @import 'reset.css';
 @import url('https://fonts.googleapis.com/css?family=Signika+Negative:400,700&display=swap');
+@import 'screen.css';
+@import 'nav.css';
 
 * {
     box-sizing: border-box;
