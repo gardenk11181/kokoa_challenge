@@ -1,0 +1,10 @@
+@import 'reset.css';
+@import url('https://fonts.googleapis.com/css?family=Signika+Negative:400,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Signika Negative', 'sans-serif';
+}
