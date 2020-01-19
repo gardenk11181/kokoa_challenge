@@ -1,0 +1,38 @@
+.screen__main-third {
+    width: 400px;
+    height: 300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    position:relative;
+    background-color: #D6F0F9;
+    color: #C6E6E0;
+    z-index: 2;
+    transition: transform .1s ease;
+}
+
+.screen__main-third:hover{
+    transform: scale(.5 ,.5) translateY(-30%);
+}
+
+.screen__fixed{
+    position:absolute;
+    width:400px;
+    height: 300px;
+    background-color: #28394A;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+
+.screen__fixed .float__title{
+    text-align: start;
+    margin-left: 20px;
+}
+
+.third {
+    margin-bottom:20px;
+    margin-right:20px;
+}
